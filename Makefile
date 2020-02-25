@@ -4,7 +4,7 @@
 all: install
 
 install:
-	pipenv install
+	pip install -r requirements.txt
 
 notebook:
-	pipenv run jupyter notebook --notebook-dir='.'
+	jupyter notebook --notebook-dir='.'

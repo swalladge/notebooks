@@ -13,8 +13,8 @@ interest and to learn Jupyter, pandas, etc.
 
 ## Dev
 
-- `$ make install`: install dependencies
-- `$ make notebook`: launch jupyter notebook
+- `$ python -m venv venv && source venv/bin/activate && make install`: install dependencies
+- `$ source venv/bin/activate && make notebook`: launch jupyter notebook
 
 ## License
 
